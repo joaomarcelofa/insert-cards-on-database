@@ -1,0 +1,24 @@
+<application>
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="C:/Program Files/nodejs/node.exe">
+      <version-cache version="8.7.0" last-modified="1507732342000" />
+    </local-interpreter>
+  </component>
+  <component name="PyTestFrameworkService">
+    <option name="SDK_TO_PYTEST">
+      <map>
+        <entry key="C:\Users\Marcelo\AppData\Local\Programs\Python\Python37-32\python.exe" value="false" />
+      </map>
+    </option>
+    <option name="SDK_TO_NOSETEST">
+      <map>
+        <entry key="C:\Users\Marcelo\AppData\Local\Programs\Python\Python37-32\python.exe" value="false" />
+      </map>
+    </option>
+    <option name="SDK_TO_TRIALTEST">
+      <map>
+        <entry key="C:\Users\Marcelo\AppData\Local\Programs\Python\Python37-32\python.exe" value="false" />
+      </map>
+    </option>
+  </component>
+</application>
