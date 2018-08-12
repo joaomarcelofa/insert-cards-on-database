@@ -23,12 +23,17 @@ class Card:
         new_card.infoAdicional = infoAdicional
         return new_card
 
+    def removeBlankSpaces(self, stringArray):
+        newArray = []
+        for string in stringArray:
+            newArray.append(string.strip())
+        return newArray
 
     def dictToCard(self, currentJsonCard):
         return self.createCard(
             currentJsonCard['id'],
             currentJsonCard['dificuldade'],
-            currentJsonCard['tag'],
+            self.removeBlankSpaces(str.split(currentJsonCard['tag'], sep=',')),
             currentJsonCard['questao'],
             [
                 currentJsonCard['opcao1'],

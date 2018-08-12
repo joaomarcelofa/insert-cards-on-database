@@ -17,5 +17,4 @@ card_collection = db['card']
 for data in my_array:
     newCard = Card().dictToCard(data)
     jsonCard = json.dumps(newCard.reprJSON(), cls=ComplexEncoder)
-    card_collection.insert_one(json.loads(jsonCard))
-
+    #card_collection.insert_one(json.loads(jsonCard))
